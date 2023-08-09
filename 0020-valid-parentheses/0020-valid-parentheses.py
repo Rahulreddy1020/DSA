@@ -3,9 +3,6 @@
 /// then we will append that item to stack and again traverse throught the string, at last we will return true if only the stack is empty and matches open and close in order.
 
 
-
-
-
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
